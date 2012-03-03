@@ -1,0 +1,3 @@
+<% for item in @: %>
+  <p id="<%= item.id %>" class="items"><%= item.title %></a>
+<% end %>
